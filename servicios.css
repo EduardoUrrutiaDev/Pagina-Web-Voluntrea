@@ -1,0 +1,66 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+.cover{
+    height: 500px;
+    background-image: url(imgServicios/ayuda.jpg);
+    color:white;
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(0, 0, 0,0.7);
+    background-blend-mode: darken;
+}
+
+.imagen{
+    width: 350px;
+
+    height: 250px;
+    margin: 0% 10px;
+}
+
+.foto{
+      width: 350px;
+      height: 250px;
+    margin: 0% 10px;
+}
+.fotos{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+.imagenes{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    padding-left: 10px;
+    font-size: 23px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.card-title{
+    min-height: 3rem;
+}
+.card-text{
+    min-height: 5rem;
+
+}
+.navegacion{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 19px;
+}
+.tarjeta{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 400px;
+}
+

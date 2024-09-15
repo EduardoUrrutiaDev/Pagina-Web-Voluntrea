@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voluntrea ONG</title>
+
+  <!-- Consolidado las hojas de estilo externas de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <!-- Iconos y estilos -->
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header con navegación -->
+  <header class="hero">
+    <nav class="navegacion container navbar">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo-blanco.png" alt="Logo de Voluntrea">
+      </a>
+
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#">Conócenos</a></li>
+        <li class="nav-item"><a class="nav-link" href="servicios.html">Actividades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Ubicación</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contáctanos</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Inscribirme</a></li>
+      </ul>
+    </nav>
+
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
+      <h2>VOLUNTREA</h2>
+      <p>Organización que busca combatir el hambre y la pobreza</p>
+    </div>
+  </header>
+
+  <!-- Sección de actividades -->
+  <section class="cards-service">
+    <h2 class="title-service text-center mt-4">NUESTRAS ACTIVIDADES</h2>
+    <div class="content">
+      <div class="row justify-content-center">
+        <div class="tarjeta col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+          <div class="card">
+            <img src="img/limpieza-playas.jpg" alt="Limpieza de playas">
+            <h4 class="mt-3">Limpieza de Espacios Públicos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
+
+        <div class="tarjeta col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+          <div class="card">
+            <img src="img/ayudando-necesitado.jpg" alt="Ayudando a necesitados">
+            <h4 class="mt-3">Entregar Alimentos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
+
+        <div class="tarjeta col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+          <div class="card">
+            <img src="img/limpieza-playas.jpg" alt="Ayuda a animales">
+            <h4 class="mt-3">Ayudar a Animales de la Calle</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <a href="#">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de donaciones -->
+  <section>
+    <h2 class="text-center mt-5">¿CÓMO DONAR?</h2>
+    <div class="container mt-5 mb-5">
+      <div class="row justify-content-center">
+        <div class="tarjeta col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div class="cover cover-small" style="background-image: url(img/limpieza-playas.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title pt-2">Obsequia ropa y alimentos</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div class="cover cover-small" style="background-image: url(img/ayudando-necesitado.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title pt-2">Regala solidaridad</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div class="cover cover-small" style="background-image: url(img/limpieza-playas.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title pt-2">Inscríbete</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Porqué existimos</a></li>
+            <li><a href="servicios.html">Nuestras Actividades</a></li>
+            <li><a href="#">Dónde estamos</a></li>
+            <li><a href="#">Contáctanos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><a href="register.html">Inscríbete</a></li>
+            <li><a href="#">Sobre VOLUNTREA</a></li>
+            <li><a href="#">Acreditados</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Noticias</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Síguenos</h4>
+          <ul class="social-links">
+            <a class="facebook" href="https://www.facebook.com/profile.php?id=100087725286249"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="tiktok" href="#"><i class="fab fa-tiktok"></i></a>
+            <a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
+  <div id="chatbot-container" class="total-contenedor">
+    <div id="chatbot-header">
+      <p>VoluntreaBOT</p>
+      <button id="close-chatbot" class="close-button"></button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages">
+      <!-- Aquí se mostrarán los mensajes del chatbot y del usuario -->
+    </div>
+    <div id="chatbot-input">
+      <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+      <button id="send-button" class="send-button"></button>
+    </div>
+  </div>
+  <button id="open-chatbot" class="chatbot-button"></button>
+
+  <!-- Scripts -->
+  <script src="chatbot.js"></script>
+</body>
+
+</html>
